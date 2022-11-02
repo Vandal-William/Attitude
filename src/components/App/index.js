@@ -6,7 +6,6 @@ import { Route, Routes } from 'react-router-dom';
 import theme from '../../selectors/Theme';
 import Header from '../Header';
 import Home from '../Home';
-import Publication from '../Publication'
 
 function App() {
 
@@ -16,12 +15,6 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/publication' element={<Publication />} />
-        <Route path='/publication/:category' element={<Publication />} />
-        <Route path='/publication/:category' element={<Publication />} />
-        <Route path='/publication/:category' element={<Publication />} />
-        <Route path='/publication/:category' element={<Publication />} />
-        <Route path='/publication/:category' element={<Publication />} />
       </Routes>
       
 
